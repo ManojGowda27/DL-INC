@@ -6,6 +6,7 @@ import Products from './productsPage';
 import Contact from './contactPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Founder from './founderPage';
+import ProductDetailPage from './Productpages/productDetail';
 
 const PageContainer = styled.div`
     display: flex;
@@ -31,6 +32,11 @@ const LandingPage = () => {
             <Route path="/about" element={<Founder />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/russell-athletic" element={<ProductDetailPage />} />
+            <Route path="/bike-athletic" element={<ProductDetailPage />} />
+            <Route path="/jemm" element={<ProductDetailPage />} />
+            <Route path="/new-era" element={<ProductDetailPage />} />
+            <Route path="/southern-athletic" element={<ProductDetailPage />} />
           </Routes>
         </ContentContainer>
       </BrowserRouter>

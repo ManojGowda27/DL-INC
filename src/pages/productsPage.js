@@ -102,7 +102,7 @@ const Products = () => {
           <ProductCard>
             <ProductCardImage src={productImage1} alt="Russell Athletic Apparell" />
             <ProductCardContent>
-              <ProductCardTitle to="/product/1">Russell Athletic</ProductCardTitle>
+              <ProductCardTitle to="/russell-athletic">Russell Athletic</ProductCardTitle>
               <ProductCardDescription>
                 First Quality and Irregular apparel from Russell Athletic.
               </ProductCardDescription>
@@ -112,7 +112,7 @@ const Products = () => {
           <ProductCard>
             <ProductCardImage src={productImage2} alt="Bike Athletic Apparell" />
             <ProductCardContent>
-              <ProductCardTitle to="/product/2">Bike Athletic</ProductCardTitle>
+              <ProductCardTitle to="/bike-athletic">Bike Athletic</ProductCardTitle>
               <ProductCardDescription>
                 This is a brief description of product 2. Stylish and comfortable for any occasion.
               </ProductCardDescription>
@@ -122,7 +122,7 @@ const Products = () => {
           <ProductCard>
             <ProductCardImage src={productImage3} alt="J.E. Morgan Apparell" />
             <ProductCardContent>
-              <ProductCardTitle to="/product/3">J.E. Morgan Mills</ProductCardTitle>
+              <ProductCardTitle to="/jemm">J.E. Morgan Mills</ProductCardTitle>
               <ProductCardDescription>
                 Heavyweight and lightweight thermals and union suits from Hanes and J.E.Morgan.
               </ProductCardDescription>
@@ -132,7 +132,7 @@ const Products = () => {
           <ProductCard>
             <ProductCardImage src={productImage4} alt="New Era Caps" />
             <ProductCardContent>
-              <ProductCardTitle to="/product/4">New Era</ProductCardTitle>
+              <ProductCardTitle to="/new-era">New Era</ProductCardTitle>
               <ProductCardDescription>
                 Licensed hats from the NBA, MLB, NFL, NHL, and NCAA.
               </ProductCardDescription>
@@ -142,7 +142,7 @@ const Products = () => {
           <ProductCard>
             <ProductCardImage src={productImage5} alt="Southern Athletic Apparell" />
             <ProductCardContent>
-              <ProductCardTitle to="/product/5">Southern Athletic</ProductCardTitle>
+              <ProductCardTitle to="/southern-athletic">Southern Athletic</ProductCardTitle>
               <ProductCardDescription>
                 Find Apparell collection from Southern Athletic.
               </ProductCardDescription>
